@@ -180,35 +180,142 @@ hr.small {
     -o-background-size: cover;
 }
 
-@media(min-width:991px) {
-    .header h1 {
-        font-size: 100px;
+
+/* FOR COMMON 4 */
+@media(min-width:401px) and (max-width:800px) {
+    header h1.mainTitle {
+        font-size: 60px;
+        margin-top: 20px;
     }
 
-    a.headerBtn.btn-lg {
-        font-size: 100px;
+    a.headerBtn.btn.btn-lg {
+        font-size: 20px;
+    }
+
+    .header .topBtn {
+        margin: 50px auto -100px auto;
+    }
+
+    .header a.headerBtn.btn.btn-lg.bottomBtn {
+        font-size: 25px;
+        
+    }
+
+    .header #DesktopSpacer {
+        height: 0px;
+        width: 10px;
+    }
+
+    .header #MobileSpacer {
+        height: 200px;
+        width: 10px;
     }
 }
 
 
-.header a {
-    margin-top: 50px;
+/* FOR COMMON 3 */
+@media(min-width:300px) and (max-width:400px) {
+    header h1.mainTitle {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    a.headerBtn.btn.btn-lg {
+        font-size: 20px;
+    }
+
+    .header .topBtn {
+        margin: 50px auto -100px auto;
+    }
+
+    .header a.headerBtn.btn.btn-lg.bottomBtn {
+        font-size: 25px;
+        
+    }
+
+    .header #DesktopSpacer {
+        height: 0px;
+        width: 10px;
+    }
+
+    .header #MobileSpacer {
+        height: 30px;
+        width: 10px;
+    }
 }
+
+
+/* FOR COMMON 2 */
+@media(min-width:1100px) {
+    header h1.mainTitle {
+        font-size: 100px;
+        margin-top: 20px;
+    }
+
+    a.headerBtn.btn.btn-lg {
+        font-size: 25px;
+    }
+
+    .header .topBtn {
+        margin: 70px auto 0px auto;
+    }
+
+    .header a.headerBtn.btn.btn-lg.bottomBtn {
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .header #DesktopSpacer {
+        height: 20px;
+        width: 10px;
+    }
+
+    .header #MobileSpacer {
+        height: 280px;
+        width: 10px;
+    }
+}
+
+
+/* FOR COMMON 1 */
+@media(min-width:1700px) {
+    header h1.mainTitle {
+        font-size: 140px;
+    }
+
+    a.headerBtn.btn.btn-lg {
+        font-size: 35px;
+    }
+
+    .header .topBtn {
+        margin: 70px 30px 80px 30px;
+    }
+
+    .header a.headerBtn.btn.btn-lg.bottomBtn {
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    .header #DesktopSpacer {
+        height: 60px;
+        width: 10px;
+    }
+
+    .header #MobileSpacer {
+        height: 280px;
+        width: 10px;
+    }
+}
+
+
+
 
 .header h3 {
     /* margin-top:280px; */
     color: #ffffff;
 }
 
-.header #DesktopSpacer {
-    height: 60px;
-    width: 10px;
-}
 
-.header #MobileSpacer {
-    height: 280px;
-    width: 10px;
-}
 
 /* Indicators list style */
 .article-slide .carousel-indicators {
