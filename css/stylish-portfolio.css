@@ -253,7 +253,7 @@ hr.small {
     }
 
     a.headerBtn.btn.btn-lg {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .header .topBtn {
@@ -262,7 +262,7 @@ hr.small {
 
     .header a.headerBtn.btn.btn-lg.bottomBtn {
         margin-top: 15px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .header #DesktopSpacer {
