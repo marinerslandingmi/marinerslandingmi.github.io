@@ -185,6 +185,36 @@ hr.small {
     padding-right: 40px;
 }
 
+@media(max-width:299px) {
+    header h1.mainTitle {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    a.headerBtn.btn.btn-lg {
+        font-size: 20px;
+    }
+
+    .header .topBtn {
+        margin: 50px auto -100px auto;
+    }
+
+    .header a.headerBtn.btn.btn-lg.bottomBtn {
+        font-size: 25px;
+        background-color:darkgreen;
+    }
+
+    .header #DesktopSpacer {
+        height: 0px;
+        width: 10px;
+    }
+
+    .header #MobileSpacer {
+        height: 30px;
+        width: 10px;
+    }
+}
+
 /* FOR COMMON 4 */
 @media(min-width:401px) and (max-width:800px) {
     header h1.mainTitle {
