@@ -204,6 +204,7 @@ hr.small {
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
+        background-color: red;
     }
 
     .header #DesktopSpacer {
@@ -222,6 +223,8 @@ hr.small {
     #btnBookNow {
         padding-left: 20px;
         padding-right: 20px;
+        background-color:aqua;
+
     }
 }
 
@@ -242,6 +245,7 @@ hr.small {
 
     .header a.headerBtn.btn.btn-lg.bottomBtn {
         font-size: 25px;
+        background-color:blueviolet;
     }
 
     .header #DesktopSpacer {
@@ -276,6 +280,8 @@ hr.small {
         font-size: 20px;
         padding-left: 40px;
         padding-right: 40px;
+        background-color:burlywood;
+
     }
 
     .header #DesktopSpacer {
@@ -307,6 +313,8 @@ hr.small {
     .header a.headerBtn.btn.btn-lg.bottomBtn {
         margin-top: 50px;
         font-size: 45px;
+        background-color:chartreuse;
+
     }
 
     .header #DesktopSpacer {
