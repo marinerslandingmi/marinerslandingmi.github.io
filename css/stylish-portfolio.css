@@ -209,7 +209,7 @@ hr.small {
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        margin-bottom:0px;
+        margin-bottom:100px;
     }
 
     .header #DesktopSpacer {
@@ -218,7 +218,7 @@ hr.small {
     }
 
     .header #MobileSpacer {
-        height: 200px;
+        height: 100px;
         width: 10px;
     }
 
