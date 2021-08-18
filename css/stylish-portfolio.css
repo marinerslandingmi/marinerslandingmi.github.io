@@ -183,36 +183,11 @@ hr.small {
 #btnBookNow {
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom:100px;
 }
 
-@media(max-width:299px) {
-    header h1.mainTitle {
-        font-size: 60px;
-        margin-top: 20px;
-    }
-
-    a.headerBtn.btn.btn-lg {
-        font-size: 20px;
-    }
-
-    .header .topBtn {
-        margin: 50px auto -100px auto;
-    }
-
-    .header a.headerBtn.btn.btn-lg.bottomBtn {
-        font-size: 25px;
-        background-color:darkgreen;
-    }
-
-    .header #DesktopSpacer {
-        height: 0px;
-        width: 10px;
-    }
-
-    .header #MobileSpacer {
-        height: 30px;
-        width: 10px;
-    }
+#headerSpacer {
+    margin-bottom: 300px;
 }
 
 /* FOR COMMON 4 */
@@ -234,7 +209,7 @@ hr.small {
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        background-color: red;
+        margin-bottom:0px;
     }
 
     .header #DesktopSpacer {
@@ -243,9 +218,13 @@ hr.small {
     }
 
     .header #MobileSpacer {
-        height: 200px;
+        height: 000px;
         width: 10px;
     }
+
+    #headerSpacer {
+    margin-bottom: 100px;
+}
 }
 
 @media(min-width:801px) and (max-width:1099px) {
@@ -253,7 +232,6 @@ hr.small {
     #btnBookNow {
         padding-left: 20px;
         padding-right: 20px;
-        background-color:aqua;
 
     }
 }
@@ -275,7 +253,6 @@ hr.small {
 
     .header a.headerBtn.btn.btn-lg.bottomBtn {
         font-size: 25px;
-        background-color:blueviolet;
     }
 
     .header #DesktopSpacer {
@@ -310,7 +287,6 @@ hr.small {
         font-size: 20px;
         padding-left: 40px;
         padding-right: 40px;
-        background-color:burlywood;
 
     }
 
@@ -343,7 +319,6 @@ hr.small {
     .header a.headerBtn.btn.btn-lg.bottomBtn {
         margin-top: 50px;
         font-size: 45px;
-        background-color:chartreuse;
 
     }
 
